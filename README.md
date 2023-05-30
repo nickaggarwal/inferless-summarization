@@ -7,7 +7,6 @@ The model's ability to generate high-quality summaries of longer texts stands ou
 Overall, the facebook/bart-large-cnn model is a highly sophisticated and versatile NLP model that can be used for a wide range of applications. Its potential lies in its ability to generate high-quality summaries and perform various NLP tasks with high accuracy once fine-tuned on a specific dataset.# Facebook/Bart-Large-Cnn
 
 ## Input
----
 Following is the json format of the input required to make request to the inference server.
 ```json
 {
@@ -27,7 +26,6 @@ Following is the json format of the input required to make request to the infere
 ```
 
 ## Output
----
 Following is the json format of the output produced for the inference request.
 ```json
 {

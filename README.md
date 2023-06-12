@@ -59,7 +59,6 @@ To use the model, you can import it into your workspace using the GitHub Import 
 
 
 ## Input
----
 Following is the json format of the input required to make request to the inference server. The `inputs` key is a list consisting of dictionaries/objects each representing a distinct input type.
 ```json
 {
@@ -79,7 +78,6 @@ Following is the json format of the input required to make request to the infere
 ```
 
 ## Output
----
 Following is the json format of the output produced for the inference request.
 ```json
 {

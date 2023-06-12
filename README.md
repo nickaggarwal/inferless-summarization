@@ -6,6 +6,11 @@ The model's ability to generate high-quality summaries of longer texts stands ou
 
 Overall, the facebook/bart-large-cnn model is a highly sophisticated and versatile NLP model that can be used for a wide range of applications. Its potential lies in its ability to generate high-quality summaries and perform various NLP tasks with high accuracy once fine-tuned on a specific dataset.# Facebook/Bart-Large-Cnn
 
+## Prerequisites
+- **Git**. You would need git installed on your system to clone the repo and push your changes as well.
+- **Python>=3.8**. You would need Python to customize the code in the `app.py` according to your needs.
+- **Curl**. You would need Curl if you want to make API calls from the terminal itself.
+
 ## Quick Start
 Here is a quick start to help you get up and running with Inferless.
 

@@ -2,6 +2,11 @@
 
 Facebook's Bart-Large-CNN is a state of the art model for performing summarization. This template will use it to perform summarization using Inferless.
 
+## Prerequisites
+- **Git**. You would need git installed on your system to clone the repo and push your changes as well.
+- **Python>=3.8**. You would need Python to customize the code in the `app.py` according to your needs.
+- **Curl**. You would need Curl if you want to make API calls from the terminal itself.
+
 ## Quick Start
 Here is a quick start to help you get up and running with Inferless.
 
@@ -89,7 +94,6 @@ To use the model, you can import it into your workspace using the GitHub Import 
 
 
 ## Input
----
 Following is the json format of the input required to make request to the inference server. The `inputs` key is a list consisting of dictionaries/objects each representing a distinct input type.
 ```json
 {
@@ -109,7 +113,6 @@ Following is the json format of the input required to make request to the infere
 ```
 
 ## Output
----
 Following is the json format of the output produced for the inference request.
 ```json
 {

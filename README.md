@@ -11,13 +11,11 @@ Facebook's Bart-Large-CNN is a state of the art model for performing summarizati
 Here is a quick start to help you get up and running with Inferless.
 
 ### Step 1: Fork the repository
----
 Get started by forking the repository. You can do this by clicking on the fork button in the top right corner of the repository page.
 
 This will create a copy of the repository in your own GitHub account, allowing you to make changes and customize it according to your needs.
 
 ### Step 2: Import the Model in Inferless
----
 Log in to your inferless account, select the workspace you want the model to be imported into and click the Add Model button.
 
 In the Step 2, Choose the source, select the github repo option and give the repo url in the third step, create model.
@@ -47,23 +45,7 @@ curl --location '<inference_url>' \
                 }'
 ```
 
-Select the 
-
-
-### Step 2: Clone the repository locally
----
-Once you've forked the repository, you can clone it to your local machine by using `git clone` command.
-
-Open your terminal or command prompt, navigate to the desired directory, and run the following command.
-
-```
-git clone <clone-url>
-```
-
-Make sure git is installed.
-
-### Step 3: Customize the code
----
+## Customizing the Code
 Open the `app.py` file. This contains the main code for inference. It has three main functions, initialize, infer and finalize.
 
 **Initialize** -  This function is executed during the cold start and is used to initialize the model. If you have any custom configurations or settings that need to be applied during the initialization, make sure to add them in this function.
@@ -78,23 +60,8 @@ def infer(self, inputs):
 **Finalize** - This function is used to perform any cleanup activity for example you can unload the model from the gpu by setting `self.pipe = None`.
 
 
-### Step 4: Commit and Push the code
----
-Once you have made the desired customizations, commit your changes using Git and push them to your forked repository. Run the following commands in your terminal or command prompt:
-
-```bash
-git add app.py
-git commit -m "Customize the app.py file"
-git push origin main
-```
-
-### Step 5: Import the Model
----
-To use the model, you can import it into your workspace using the GitHub Import method and providing the repo url.
-
-
 ## Input
-Following is the json format of the input required to make request to the inference server. The `inputs` key is a list consisting of dictionaries/objects each representing a distinct input type.
+This is an example input json to make the request. The "inputs" will be a key refering to list of dictionaries, each representing a differnet input type.
 ```json
 {
   "inputs": [
@@ -130,3 +97,5 @@ Following is the json format of the output produced for the inference request.
   ]
 }
 ```
+
+For more information refer to the [Inferless docs](https://docs.inferless.com/).

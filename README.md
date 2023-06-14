@@ -64,7 +64,7 @@ The following is a sample Input and Output for this model.
 
 ---
 ## Curl Command
-Following is an example of the CURL command you can use to make inference. You can find the exact curl command in the Model's API page in Inferless.
+Following is an example of the curl command you can use to make inference. You can find the exact curl command in the Model's API page in Inferless.
 
 ```bash
 curl --location '<your_inference_url>' \

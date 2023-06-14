@@ -1,10 +1,6 @@
 # Facebook/Bart-Large-CNN
 
-Facebook AI's facebook/bart-large-cnn model is a pre-trained Seq2Seq model that uses the BERT architecture to perform various NLP tasks, such as summarization, text generation, question answering, and machine translation. It has over 400 million trainable parameters, requiring substantial computational resources to train and fine-tune. Despite this, it's a powerful tool for NLP applications once pre-trained and fine-tuned on smaller datasets.
-
-The model's ability to generate high-quality summaries of longer texts stands out, making it particularly well-suited for summarization tasks. However, it also excels in other NLP tasks, making it a versatile tool for different applications in the field of NLP.
-
-Overall, the facebook/bart-large-cnn model is a highly sophisticated and versatile NLP model that can be used for a wide range of applications. Its potential lies in its ability to generate high-quality summaries and perform various NLP tasks with high accuracy once fine-tuned on a specific dataset.# Facebook/Bart-Large-Cnn
+Facebook's Bart-Large-CNN is a state of the art model for performing summarization. This template will use it to perform summarization using Inferless.
 
 ## Quick Start
 Here is a quick start to help you get up and running with Inferless.
@@ -14,6 +10,40 @@ Here is a quick start to help you get up and running with Inferless.
 Get started by forking the repository. You can do this by clicking on the fork button in the top right corner of the repository page.
 
 This will create a copy of the repository in your own GitHub account, allowing you to make changes and customize it according to your needs.
+
+### Step 2: Import the Model in Inferless
+---
+Log in to your inferless account, select the workspace you want the model to be imported into and click the Add Model button.
+
+In the Step 2, Choose the source, select the github repo option and give the repo url in the third step, create model.
+
+Enter all the required details and you've successfully imported the model!
+
+## Curl Command
+Following is an example of the CURL command you can use to make inference. You can find the exact curl command in the Model's API page in Inferless.
+
+```bash
+curl --location '<inference_url>' \
+          --header 'Content-Type: application/json' \
+          --header 'Authorization: Bearer <your_api_key>' \
+          --data '{
+                    "inputs": [
+                        {
+                            "data": [
+                                "Enter the content here..."
+                            ],
+                            "name": "text",
+                            "shape": [
+                                1
+                            ],
+                            "datatype": "BYTES"
+                        }
+                    ]
+                }'
+```
+
+Select the 
+
 
 ### Step 2: Clone the repository locally
 ---

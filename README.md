@@ -1,6 +1,6 @@
 # Facebook/Bart-Large-CNN
 
-Facebook's Bart-Large-CNN is a state of the art model for performing summarization. In this template we will use it to perform summarization using Inferless.
+Facebook's Bart-Large-CNN is a state of the art model for performing summarization. You can use this template to import and run a Bart-Large-CNN model in the Inferless platform.
 
 ## Prerequisites
 - **Git**. You would need git installed on your system if you wish to customize the repo after forking.

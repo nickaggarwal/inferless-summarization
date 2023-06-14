@@ -1,14 +1,14 @@
 # Facebook/Bart-Large-CNN
 
-Facebook's Bart-Large-CNN is a state of the art model for performing summarization. This template will use it to perform summarization using Inferless.
+Facebook's Bart-Large-CNN is a state of the art model for performing summarization. In this template we will use it to perform summarization using Inferless.
 
 ## Prerequisites
-- **Git**. You would need git installed on your system to clone the repo and push your changes as well.
+- **Git**. You would need git installed on your system if you wish to customize the repo after forking.
 - **Python>=3.8**. You would need Python to customize the code in the `app.py` according to your needs.
 - **Curl**. You would need Curl if you want to make API calls from the terminal itself.
 
 ## Quick Start
-Here is a quick start to help you get up and running with Inferless.
+Here is a quick start to help you get up and running with Bart-Large-CNN on Inferless.
 
 ### Step 1: Fork the repository
 Get started by forking the repository. You can do this by clicking on the fork button in the top right corner of the repository page.
@@ -26,7 +26,7 @@ Enter all the required details and you've successfully imported the model!
 Following is an example of the CURL command you can use to make inference. You can find the exact curl command in the Model's API page in Inferless.
 
 ```bash
-curl --location '<inference_url>' \
+curl --location '<your_inference_url>' \
           --header 'Content-Type: application/json' \
           --header 'Authorization: Bearer <your_api_key>' \
           --data '{

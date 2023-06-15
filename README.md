@@ -24,7 +24,7 @@ Select the appropriate framework and choose **Repo(custom code)** as your model 
 
 Enter all the required details to Import your model. Refer [this link](https://docs.inferless.com/integrations/github-custom-code) for more information on model import.
 
-The following is a sample Input and Output for this model.
+The following is a sample Input and Output JSON for this model which you can use while importing this model on Inferless.
 
 ### Input
 ```json
@@ -49,9 +49,6 @@ The following is a sample Input and Output for this model.
 {
   "outputs": [
     {
-      "data": [
-        "Natural language processing (NLP) aims to give computers the ability to understand text and spoken words. NLP combines computational linguistics with statistical, machine learning, and deep learning models. Together, these technologies enable computers to process human language in the form of text or voice data and to ‘understand’ its full meaning."
-      ],
       "name": "summary_text",
       "shape": [
         1

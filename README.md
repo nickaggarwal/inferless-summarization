@@ -24,7 +24,7 @@ Select the model's training framework(Pytorch/Tensorflow/ONNX) and choose **Repo
 
 Then use the forked repo URL as the **Model URL**.
 
-The following is a sample Input and Output JSON for this model which you can use while importing this model on Inferless.
+The following is a sample **Input and Output JSON** for this model which you can use while importing this model on Inferless.
 
 ### Input
 ```json
@@ -61,7 +61,7 @@ The following is a sample Input and Output JSON for this model which you can use
 
 Refer to [this link](https://docs.inferless.com/integrations/github-custom-code) for more information on model import.
 
-### STEP 3 Call the Model using Inferless Endpoint 
+### STEP 3: Call the Model using Inferless Endpoint 
 
 Following is an example of the curl command you can use to make inferences. You can find the exact curl command in the Model's API page in Inferless.
 

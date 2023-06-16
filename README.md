@@ -9,17 +9,20 @@ Facebook's Bart-Large-CNN is a state-of-the-art model for performing the task fo
 - **Curl**. You would need Curl if you want to make API calls from the terminal itself.
 
 ---
-## Quick Start
+##  Quick Start
 Here is a quick start to help you get up and running with Bart-Large-CNN on Inferless.
 
-### Fork the repository
+### STEP 1: Fork the repository
 Get started by forking the repository. You can do this by clicking on the fork button in the top right corner of the repository page.
 This will create a copy of the repository in your own GitHub account, allowing you to make changes and customize it according to your needs.
 
-### Import the Model in Inferless
-Log in to your infer less account, select the workspace you want the model to be imported into, and click the Add Model button.
+### STEP 2: Import the Model in Inverness
 
-Select the appropriate framework and choose **Repo(custom code)** as your model source and then use the forked repo URL as the **Model URL**.
+Log in to your inferless account https://console.inferless.com/  and click the Add Model button.
+
+Select the model's training framework(Pytorch/Tensorflow/ONNX) and choose **Repo(custom code)** as your model source.
+
+Then use the forked repo URL as the **Model URL**.
 
 The following is a sample Input and Output JSON for this model which you can use while importing this model on Inferless.
 
@@ -59,7 +62,8 @@ The following is a sample Input and Output JSON for this model which you can use
 Refer to [this link](https://docs.inferless.com/integrations/github-custom-code) for more information on model import.
 
 ---
-## Curl Command
+## STEP 3 Call the Model using Inferless Endpoint 
+
 Following is an example of the curl command you can use to make inferences. You can find the exact curl command in the Model's API page in Inferless.
 
 ```bash

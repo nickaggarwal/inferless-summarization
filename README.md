@@ -2,13 +2,7 @@
 
 Facebook's Bart-Large-CNN is a state-of-the-art model for performing the task for **text-summarization**. You can use this template to import and run a test summarization using Bart-Large-CNN model in the Inferless platform.
 
----
-## Prerequisites
-- **Git**. You would need git installed on your system if you wish to customize the repo after forking.
-- **Python>=3.8**. You would need Python to customize the code in the `app.py` according to your needs.
-- **Curl**. You would need Curl if you want to make API calls from the terminal itself.
 
----
 ##  Quick Start
 Here is a quick start to help you get up and running with Bart-Large-CNN on Inferless.
 
@@ -104,3 +98,12 @@ def infer(self, inputs):
 
 
 For more information refer to the [Inferless docs](https://docs.inferless.com/).
+
+
+---
+## Prerequisites
+- **Git**. You would need git installed on your system if you wish to customize the repo after forking.
+- **Python>=3.8**. You would need Python to customize the code in the `app.py` according to your needs.
+- **Curl**. You would need Curl if you want to make API calls from the terminal itself.
+
+---
